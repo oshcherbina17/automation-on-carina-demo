@@ -1,13 +1,14 @@
 package com.zebrunner.carina.demo.toolshop;
 
+import java.util.List;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
 import com.zebrunner.carina.core.IAbstractTest;
 import com.zebrunner.carina.demo.toolshop.gui.enums.ByCategoty;
 import com.zebrunner.carina.demo.toolshop.gui.enums.SortDropdown;
 import com.zebrunner.carina.demo.toolshop.gui.pages.common.HomePageBase;
-import org.testng.Assert;
-import org.testng.annotations.Test;
-
-import java.util.List;
 
 public class HomePageTest implements IAbstractTest {
 
