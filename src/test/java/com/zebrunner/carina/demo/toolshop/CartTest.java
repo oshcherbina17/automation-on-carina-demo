@@ -1,9 +1,9 @@
 package com.zebrunner.carina.demo.toolshop;
+import org.testng.Assert;
+import org.testng.annotations.Test;
 
 import com.zebrunner.carina.core.IAbstractTest;
 import com.zebrunner.carina.demo.toolshop.gui.pages.common.*;
-import org.testng.Assert;
-import org.testng.annotations.Test;
 
 
 public class CartTest implements IAbstractTest {
