@@ -153,4 +153,17 @@ public class HomePage extends HomePageBase {
         return initPage(driver, ProductDetailsPageBase.class);
     }
 
+    @Override
+    public boolean isFilterButtonPresent() {
+        return false;
+    }
+
+    @Override
+    public void clickOnHamburgerMenu() {
+    }
+
+    @Override
+    public LoginPageBase clickOnSingInButton() {
+        return null;
+    }
 }
