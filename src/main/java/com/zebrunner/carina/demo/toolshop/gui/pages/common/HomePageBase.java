@@ -53,4 +53,6 @@ public abstract class HomePageBase extends AbstractPage {
     public abstract void clickOnHamburgerMenu();
 
     public abstract LoginPageBase clickOnSingInButton();
+
+    public abstract String getProductTitleTextByIndex(int index);
 }
