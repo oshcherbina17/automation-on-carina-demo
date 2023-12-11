@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Carina Demo Tests - Switching Of Contexts Test" verbose="1" parallel="tests">
+
+    <test name="Switching Of Contexts Test">
+        <classes>
+            <class name="com.zebrunner.carina.demo.toolshop.SwitchingOfContextsTest" />
+        </classes>
+    </test>
+
+</suite>

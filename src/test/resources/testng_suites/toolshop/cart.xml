@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite verbose="1" name="Carina Demo Tests - Cart Test" parallel="methods">
+
+    <test name="Add Product To Cart Test">
+        <classes>
+            <class name="com.zebrunner.carina.demo.toolshop.CartTest" >
+                <methods>
+                    <include name="addProductToCartTest" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Checkout Product Test">
+        <classes>
+            <class name="com.zebrunner.carina.demo.toolshop.CartTest">
+                <methods>
+                    <include name="checkoutProductTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
