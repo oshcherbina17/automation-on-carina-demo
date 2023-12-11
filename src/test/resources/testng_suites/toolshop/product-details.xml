@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Carina Demo Tests - Product Details Test" verbose="1" parallel="tests">
+
+    <test name="Add Product To Cart Test">
+        <classes>
+            <class name="com.zebrunner.carina.demo.toolshop.ProductDetailsTest" />
+        </classes>
+    </test>
+
+</suite>

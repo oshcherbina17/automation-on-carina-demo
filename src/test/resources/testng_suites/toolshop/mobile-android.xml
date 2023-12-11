@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Carina Demo Tests - Mobile Android Test" verbose="1" parallel="tests">
+
+    <test name="Mobile Login test">
+        <classes>
+            <class name="com.zebrunner.carina.demo.toolshop.MobileAndroidTest" />
+        </classes>
+    </test>
+
+</suite>

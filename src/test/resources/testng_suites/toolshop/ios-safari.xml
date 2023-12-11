@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Carina Demo Tests - iOS Safari Sample" verbose="1" parallel="tests">
+
+	<test name="Safari test">
+		<classes>
+			<class name="com.zebrunner.carina.demo.toolshop.IOSSafariTest" />
+		</classes>
+	</test>
+
+</suite>
