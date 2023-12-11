@@ -25,6 +25,7 @@ import com.zebrunner.carina.demo.toolshop.gui.enums.SortDropdown;
 import com.zebrunner.carina.demo.toolshop.gui.pages.common.HomePageBase;
 import com.zebrunner.carina.demo.toolshop.gui.pages.common.LoginPageBase;
 import com.zebrunner.carina.demo.toolshop.gui.pages.common.ProductDetailsPageBase;
+import com.zebrunner.carina.utils.exception.NotImplementedException;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -155,15 +156,21 @@ public class HomePage extends HomePageBase {
 
     @Override
     public boolean isFilterButtonPresent() {
-        return false;
+        throw new NotImplementedException();
     }
 
     @Override
     public void clickOnHamburgerMenu() {
+        throw new NotImplementedException();
     }
 
     @Override
     public LoginPageBase clickOnSingInButton() {
-        return null;
+        throw new NotImplementedException();
+    }
+
+    @Override
+    public String getProductTitleTextByIndex(int index) {
+        throw new NotImplementedException();
     }
 }

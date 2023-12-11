@@ -23,6 +23,7 @@ import com.zebrunner.carina.demo.toolshop.gui.enums.SortDropdown;
 import com.zebrunner.carina.demo.toolshop.gui.pages.common.HomePageBase;
 import com.zebrunner.carina.demo.toolshop.gui.pages.common.LoginPageBase;
 import com.zebrunner.carina.demo.toolshop.gui.pages.common.ProductDetailsPageBase;
+import com.zebrunner.carina.utils.exception.NotImplementedException;
 import com.zebrunner.carina.webdriver.decorator.ExtendedWebElement;
 import org.openqa.selenium.WebDriver;
 
@@ -51,52 +52,52 @@ public class HomePage extends HomePageBase {
 
     @Override
     public LoginPageBase clickOnLoginButton() {
-        return null;
+          throw new NotImplementedException();
     }
 
     @Override
     public void searchForProduct(String query) {
-
+        throw new NotImplementedException();
     }
 
     @Override
     public List<String> getProductTitles() {
-        return null;
+        throw new NotImplementedException();
     }
 
     @Override
     public void getProductTitleText(String name) {
-
+        throw new NotImplementedException();
     }
 
     @Override
     public void clickOnDropdownMenu() {
-
+        throw new NotImplementedException();
     }
 
     @Override
     public void sortDropdownMenu(SortDropdown sortDropdown) {
-
+        throw new NotImplementedException();
     }
 
     @Override
     public boolean isProductsSortedFromLowToHighPrice() {
-        return false;
+        throw new NotImplementedException();
     }
 
     @Override
     public void setCheckboxByCategory(ByCategoty byCategory) {
-
+        throw new NotImplementedException();
     }
 
     @Override
     public boolean isChosenNameCorrect(String name) {
-        return false;
+        throw new NotImplementedException();
     }
 
     @Override
     public ProductDetailsPageBase clickOnProductPage(int index) {
-        return null;
+        throw new NotImplementedException();
     }
 
     @Override
@@ -113,5 +114,10 @@ public class HomePage extends HomePageBase {
     public LoginPageBase clickOnSingInButton() {
         singInBtn.click();
         return initPage(getDriver(), LoginPageBase.class);
+    }
+
+    @Override
+    public String getProductTitleTextByIndex(int index) {
+        throw new NotImplementedException();
     }
 }
