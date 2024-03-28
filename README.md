@@ -1,3 +1,5 @@
+<img src="https://github.com/oshcherbina17/automation-on-carina-demo/workflows/apiTest/badge.svg?branch=web"><br>
+
 ### Getting started
 * Install and configure JDK 11
 * Install and configure [Apache Maven 3.6.0+](http://maven.apache.org/)
