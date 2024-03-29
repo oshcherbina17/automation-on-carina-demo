@@ -19,6 +19,5 @@ public class LoginTest implements IAbstractTest {
         Assert.assertTrue(accountPage.isProfileButtonPresent(), "Profile button isn`t presented");
         Assert.assertTrue(accountPage.isInvoicesButtonPresent(), "Invoices button isn`t presented");
         Assert.assertTrue(accountPage.isMessagesButtonPresent(), "Messages button isn`t presented");
-
     }
 }
