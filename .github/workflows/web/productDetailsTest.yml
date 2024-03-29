@@ -1,6 +1,14 @@
 name: productDetailsTestWithSelenoid
 
 on:
+ push:
+    branches: [ web ]
+    paths-ignore:
+      - '**/README.md'
+ pull_request:
+    branches: [ web ]
+    paths-ignore:
+      - '**/README.md'
  workflow_dispatch:
    inputs:
       browsers:
