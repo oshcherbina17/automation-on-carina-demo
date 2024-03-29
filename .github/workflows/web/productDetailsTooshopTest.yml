@@ -10,16 +10,6 @@ on:
     branches: [ web ]
     paths-ignore:
       - '**/README.md'
- workflow_dispatch:
-   inputs:
-      browsers:
-        description: 'Browser for tests'
-        required: true
-        default: 'chrome'
-        type: choice
-        options:
-          - chrome
-          - firefox
 
 jobs:
   MavenBuildWeb:
@@ -40,7 +30,7 @@ jobs:
         uses: Xotabu4/selenoid-github-action@v2
       
       - name: Build and run tests step
-        run: mvn clean test -Dsuite=product-details -Dbrowser=${{inputs.browsers}}
+        run: mvn clean test -Dsuite=product-details
         
       - name: Create artifacts directory
         if: success() || failure()
