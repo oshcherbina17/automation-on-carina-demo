@@ -3,11 +3,11 @@ name: productDetailsTestWithSelenoid
 
 on:
  push:
-    branches: [ web ]
+    branches: [ git ]
     paths-ignore:
       - '**/README.md'
  pull_request:
-    branches: [ web ]
+    branches: [ git ]
     paths-ignore:
       - '**/README.md'
  workflow_dispatch:
