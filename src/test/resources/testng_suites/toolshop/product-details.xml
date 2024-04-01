@@ -5,7 +5,8 @@
     
     <test name="Add Product To Cart Test">
         <classes>
-              <methods>
+              <class name="com.zebrunner.carina.demo.toolshop.ProductDetailsTest" />
+                <methods>
                     <include name="ProductDetailsTest"/>
                 </methods>
         </classes>
