@@ -1,4 +1,4 @@
-name: Web Tests
+name: WebTests
 
 on:
   pull_request_target:

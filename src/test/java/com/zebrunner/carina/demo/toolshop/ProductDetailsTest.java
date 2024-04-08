@@ -22,4 +22,11 @@ public class ProductDetailsTest implements IAbstractTest {
         Assert.assertTrue(cardPage.getTitleText().contains(titleText), " Card title text is not contains" +
                 " product title text");
     }
+
+    @Test(description = "User can add products to cart")
+    public void addProductToCartV2Test() {
+        HomePageBase homePage = initPage(getDriver(), HomePageBase.class);
+        homePage.open();
+        Assert.assertTrue(homePage.isPageOpened(), "Page isn't opened");
+    }
 }
