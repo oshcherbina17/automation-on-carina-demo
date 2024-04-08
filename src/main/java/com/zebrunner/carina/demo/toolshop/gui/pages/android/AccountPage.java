@@ -22,10 +22,10 @@ public class AccountPage extends AccountPageBase {
     @FindBy(xpath = "//a[@data-test='nav-messages']")
     private ExtendedWebElement messagesBtn;
 
-    @FindBy(css = "a[data-test='nav-home']") //
-    private ExtendedWebElement homeBtn;//
+    @FindBy(css = "a[data-test='nav-home']")
+    private ExtendedWebElement homeBtn;
 
-    @FindBy(css = "a[id='user-menu']")//
+    @FindBy(css = "a[id='user-menu']")
     private ExtendedWebElement userMenu;
 
     public AccountPage(WebDriver driver) {
