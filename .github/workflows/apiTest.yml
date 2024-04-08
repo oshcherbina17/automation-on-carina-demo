@@ -12,7 +12,7 @@ on:
   
 
 jobs:
-  MavenBuild:
+  api-test:
     runs-on: ubuntu-latest
 
     steps:
